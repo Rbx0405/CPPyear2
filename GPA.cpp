@@ -9,7 +9,8 @@ int main()
     cin >> num;
 
     // Dynamically allocate memory for storing GPA
-    float *ptr = new float[num];
+    float *ptr;
+   ptr = new float[num];
 
     // Input GPAs
     cout << "Enter GPA of students." << endl;
